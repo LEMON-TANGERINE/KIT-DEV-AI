@@ -1,0 +1,55 @@
+________________________________________
+UNIVERSAL TEMPLATE
+Context:
+[what project this is and what part we are working on]
+
+Objective:
+[what I want to achieve]
+
+Constraints:
+[what must not change / technologies / limits]
+
+Acceptance criteria:
+[what must be true]
+
+Process:
+First analyze the project and propose a plan.
+Do not implement until the approach is clear.
+________________________________________
+TEMPLATE FOR A SMALL TASK
+Modify [X] so that [behavior].
+
+Keep [constraint].
+Do not change [part].
+
+Then run [tests/command] and tell me exactly what you changed.
+________________________________________
+TEMPLATE FOR A BUG
+We have this problem:
+
+[bug]
+
+Expected behavior:
+[...]
+
+Current behavior:
+[...]
+
+First reproduce or identify the root cause.
+Do not make superficial patches.
+Then fix it and add a test that prevents a regression.
+________________________________________
+TEMPLATE FOR A REFACTOR
+Refactor [module].
+
+Objective:
+[...]
+
+Constraints:
+- Do not change behavior.
+- Do not change the public API.
+- Do not add dependencies.
+
+First propose the plan.
+Then implement small changes and run the tests.
+________________________________________

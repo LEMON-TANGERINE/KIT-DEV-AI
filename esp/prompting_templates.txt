@@ -1,0 +1,55 @@
+________________________________________
+PLANTILLA UNIVERSAL
+Contexto:
+[qué proyecto es y qué parte estamos tocando]
+
+Objetivo:
+[qué quiero conseguir]
+
+Restricciones:
+[qué no debe cambiar / tecnologías / límites]
+
+Criterios de aceptación:
+[qué tiene que cumplirse]
+
+Proceso:
+Primero analiza el proyecto y propón un plan.
+No implementes hasta tener claro el enfoque.
+________________________________________
+PLANTILLA PARA TAREA PEQUEÑA
+Modifica [X] para que [comportamiento].
+
+Mantén [restricción].
+No cambies [parte].
+
+Después ejecuta [tests/comando] y dime exactamente qué has cambiado.
+________________________________________
+PLANTILLA PARA BUG
+Tenemos este problema:
+
+[bug]
+
+Comportamiento esperado:
+[...]
+
+Comportamiento actual:
+[...]
+
+Primero reproduce o identifica la causa raíz.
+No hagas parches superficiales.
+Después corrígelo y añade un test que evite una regresión.
+________________________________________
+PLANTILLA PARA REFACTOR
+Refactoriza [módulo].
+
+Objetivo:
+[...]
+
+Restricciones:
+- No cambiar comportamiento.
+- No cambiar API pública.
+- No añadir dependencias.
+
+Primero propón el plan.
+Después implementa cambios pequeños y ejecuta los tests.
+________________________________________
